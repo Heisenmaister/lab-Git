@@ -1,9 +1,9 @@
 #!/bin/bash
 #SBATCH -p hpc-bio-pacioli
-#SBATCH --chdir=/home/alumno14/lab4FLR
-#SBATCH --job-name=lab4_cut
-#SBATCH --output=lab4_cut_%j.out
-#SBATCH --error=lab4_cut_%j.err
+#SBATCH --chdir=/home/alumno14/LAB3
+#SBATCH --job-name=lab3_cut
+#SBATCH --output=lab3_cut_%j.out
+#SBATCH --error=lab3_cut_%j.err
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=4
 #SBATCH --cpus-per-task=1
